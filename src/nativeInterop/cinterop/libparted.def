@@ -1,0 +1,5 @@
+headers=parted/parted.h
+headerFilter=parted/*
+
+compilerOpts.linux = -I/usr/include
+linkerOpts.linux = -L/usr/lib -lparted
