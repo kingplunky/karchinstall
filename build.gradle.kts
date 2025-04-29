@@ -10,6 +10,7 @@ repositories {
 }
 
 kotlin {
+
     linuxX64("karchinstall") {
         binaries {
             executable {
